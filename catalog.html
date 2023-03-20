@@ -1,0 +1,556 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preload" href="font/OpenSans-Bold.woff" as="font">
+    <link rel="preload" href="font/OpenSans-BoldItalic.woff" as="font">
+    <link rel="preload" href="font/OpenSans-ExtraBold.woff" as="font">
+    <link rel="preload" href="font/OpenSans-ExtraBoldItalic.woff" as="font">
+    <link rel="preload" href="font/OpenSans-Italic.woff" as="font">
+    <link rel="preload" href="font/OpenSans-Light.woff" as="font">
+    <link rel="preload" href="font/OpenSans-LightItalic.woff" as="font">
+    <link rel="preload" href="font/OpenSans-Regular.woff" as="font">
+    <link rel="preload" href="font/OpenSans-SemiBold.woff2" as="font">
+    <link rel="preload" href="font/OpenSans-SemiBoldItalic.woff" as="font">
+    <link rel="preload" href="font/playfairdisplay-black-webfont.woff" as="font">
+    <link rel="stylesheet" href="css/choices.min.css">
+    <link rel="stylesheet" href="css/nouislider.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/simplebar@latest/dist/simplebar.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
+    <link rel="icon" href="img/fav.png" type="image/x-icon">
+    <title>SitDownPls</title>
+  </head>
+  <body>
+    <object type="image/svg+xml" data="img/svg/sprite/sprite.svg" style="display:none;">Your  browser does not support SVG</object>
+    <div class="wrapper">
+      <header class="header grid">
+        <h1 class="header__heading visuallyhidden" tabindex="1">Интернет-магазин диванов и кресел</h1>
+        <div class="header__mob mob-320">
+          <div class="header__mob-container container flex"><a class="header__logo logo" href="index.html" aria-label="Логотип, вернуться на главную" tabindex="1">
+              <svg width="187" height="27" viewBox="0 0 187 27" fill="">
+                <use xlink:href="img/svg/sprite/sprite.svg#logo"></use>
+              </svg></a></div>
+        </div>
+        <div class="header-first">
+          <div class="container header__container header-first__container">
+            <div class="header__region flex">
+              <form class="header__region-form flex">
+                <label class="header__region-label label ui-label" for="city" tabindex="1">Ваш&nbsp;регион:</label>
+                <select class="header__region-select" id="city" name="city" tabindex="1">
+                  <option value="1">Москва</option>
+                  <option value="2">Казань</option>
+                  <option value="3">Уфа</option>
+                  <option value="4">Пермь</option>
+                </select>
+              </form><a class="header__region-link link-tel ui-link ui-icon" href="+74958854547" tabindex="1">+7 (495) 885-45-47
+                <svg width="22" height="22" viewBox="0 0 22 22" fill="">
+                  <use id="tel" xlink:href="img/svg/sprite/sprite.svg#tel"></use>
+                </svg></a>
+            </div>
+            <nav class="header__nav-grey desktop">
+              <ul class="header__nav-list header-first__nav">
+                <li class="header__nav-item"><a class="header__nav-link link-grey ui-link" href="#" tabindex="1">О&nbsp;компании</a></li>
+                <li class="header__nav-item"><a class="header__nav-link link-grey ui-link" href="#" tabindex="1">Гарантия&nbsp;и&nbsp;возврат</a></li>
+                <li class="header__nav-item"><a class="header__nav-link link-grey ui-link" href="#" tabindex="1">Корпоративным&nbsp;клиентам</a></li>
+                <li class="header__nav-item"><a class="header__nav-link link-grey ui-link" href="#" tabindex="1">Дизайн&nbsp;решение</a></li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+        <div class="header-second tablet">
+          <div class="container header__container header-second__container flex">
+            <nav class="header__nav-grey">
+              <ul class="header__nav-list">
+                <li class="header__nav-item"><a class="header__nav-link link-grey ui-link" href="#" tabindex="1">О&nbsp;компании</a></li>
+                <li class="header__nav-item"><a class="header__nav-link link-grey ui-link" href="#" tabindex="1">Гарантия&nbsp;и&nbsp;возврат</a></li>
+                <li class="header__nav-item"><a class="header__nav-link link-grey ui-link" href="#" tabindex="1">Корпоративным&nbsp;клиентам</a></li>
+                <li class="header__nav-item"><a class="header__nav-link link-grey ui-link" href="#" tabindex="1">Дизайн&nbsp;решение</a></li>
+              </ul>
+            </nav>
+            <div class="header__user flex"><a class="header__user-login icon ui-icon" href="#" tabindex="1" aria-label="Зайти в личный кобинет">
+                <svg width="26" height="28" viewBox="0 0 26 28" fill="#A65CF0">
+                  <use xlink:href="img/svg/sprite/sprite.svg#user"></use>
+                </svg></a><a class="header__user-cart icon ui-icon" href="#" tabindex="1" aria-label="Перейти к корзине">
+                <svg width="41" height="28" viewBox="0 0 41 28" fill="#A65CF0">
+                  <use xlink:href="img/svg/sprite/sprite.svg#cart"></use>
+                </svg></a></div>
+          </div>
+        </div>
+        <div class="header-third">
+          <div class="container header__container header-third__container"><a class="header__logo logo" href="index.html" aria-label="Логотип, вернуться на главную" tabindex="1">
+              <svg width="187" height="27" viewBox="0 0 187 27" fill="">
+                <use xlink:href="img/svg/sprite/sprite.svg#logo"></use>
+              </svg></a>
+            <div class="header__menu">
+              <button class="header__burg-opn mob" aria-label="Развернуть меню" tabindex="1">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="#A65CF0">
+                  <use xlink:href="img/svg/sprite/sprite.svg#burger"></use>
+                </svg>
+              </button>
+              <nav class="header__nav">
+                <button class="header__burg-close mob" aria-label="Закрыть меню" tabindex="1">
+                  <svg width="20" height="20" viewBox="0 0 20 20" fill="#A65CF0">
+                    <use xlink:href="img/svg/sprite/sprite.svg#close"></use>
+                  </svg>
+                </button>
+                <ul class="header__nav-list header-third__nav">
+                  <li class="header__nav-item"><a class="header__nav-link link-nav ui-link" href="catalog.html" tabindex="1">Каталог</a></li>
+                  <li class="header__nav-item"><a class="header__nav-link link-nav ui-link" href="#" tabindex="1">Магазины</a></li>
+                  <li class="header__nav-item"><a class="header__nav-link link-nav ui-link" href="#" tabindex="1">Шоу-рум</a></li>
+                  <li class="header__nav-item"><a class="header__nav-link link-nav ui-link" href="#" tabindex="1">Доставка и оплата</a></li>
+                  <li class="header__nav-item"><a class="header__nav-link link-nav ui-link" href="#" tabindex="1">Дисконт</a></li>
+                  <li class="header__nav-item"><a class="header__nav-link link-nav ui-link" href="#contact" tabindex="1">Контакты</a></li>
+                </ul>
+                <svg class="header__nav-elephant mob mob-none" width="161" height="112" viewBox="0 0 161 112" fill="#666666" opacity="0.2">
+                  <use xlink:href="img/svg/sprite/sprite.svg#elephant"></use>
+                </svg>
+              </nav>
+            </div>
+            <div class="header__user flex mob"><a class="header__user-login icon ui-icon" href="#" tabindex="1" aria-label="Зайти в личный кобинет">
+                <svg width="26" height="28" viewBox="0 0 26 28" fill="#A65CF0">
+                  <use xlink:href="img/svg/sprite/sprite.svg#user"></use>
+                </svg></a><a class="header__user-cart icon ui-icon" href="#" tabindex="1" aria-label="Перейти к корзине">
+                <svg width="41" height="28" viewBox="0 0 41 28" fill="#A65CF0">
+                  <use xlink:href="img/svg/sprite/sprite.svg#cart"></use>
+                </svg></a></div>
+          </div>
+        </div>
+        <div class="header-four">
+          <div class="container header__container header-four__container">
+            <div class="header__form-container">
+              <form class="header__form" action="#">
+                <svg class="header__form-svg" width="20" height="20" viewBox="0 0 20 20" fill="#999999">
+                  <use xlink:href="img/svg/sprite/sprite.svg#search"></use>
+                </svg>
+                <input class="header__search input ui-input" id="search" type="text" name="search" placeholder="Я хочу купить..." tabindex="1">
+                <button class="header__search-btn ui-icon" aria-label="Искать" tabindex="1">
+                  <svg class="svg-arrow" width="7" height="12" viewBox="-1 -7 8 26" stroke="#A65CF0" fill="none">
+                    <use xlink:href="img/svg/sprite/sprite.svg#arrow"></use>
+                  </svg>
+                </button>
+              </form>
+              <select class="header__select select" id="category" name="category" tabindex="1">
+                <option class="placeholder" value="" tabindex="1">Категория</option>
+                <option value="1">Диваны</option>
+                <option value="2">Кресла</option>
+                <option value="3">Пуфы</option>
+                <option value="4">Кровати</option>
+                <option value="5">Тумбы</option>
+                <option value="6">Комоды</option>
+                <option value="7">Стулья</option>
+                <option value="8">Столы</option>
+                <option value="9">Аксессуары</option>
+              </select>
+            </div>
+            <div class="header__user flex desktop"><a class="header__user-login icon ui-icon" href="#" tabindex="1" aria-label="Зайти в личный кобинет">
+                <svg width="26" height="28" viewBox="0 0 26 28" fill="#A65CF0">
+                  <use xlink:href="img/svg/sprite/sprite.svg#user"></use>
+                </svg></a><a class="header__user-cart icon ui-icon" href="#" tabindex="1" aria-label="Перейти к корзине">
+                <svg width="41" height="28" viewBox="0 0 41 28" fill="#A65CF0">
+                  <use xlink:href="img/svg/sprite/sprite.svg#cart"></use>
+                </svg></a></div>
+          </div>
+        </div>
+      </header>
+      <main class="main main-catalog">
+        <div class="container way-container"><span class="way link-grey"><a class="way-link way-main ui-link" href="index.html">Главная &#47;&nbsp;</a><a class="way-link way-catalog ui-link" href="catalog.html">Каталог &#47;&nbsp;</a><a class="way-link way-sofa ui-link" href="catalog.html">Диваны &#47;&nbsp;</a><a class="way-link way-straightSofa ui-link" href="catalog.html">Прямые&nbsp;диваны&nbsp;</a><a class="way-link way-product ui-link" href="product.html">&#47;&nbsp; D-31</a><a class="way-link way-partner ui-link" href="partner.html"> Сотрудничество</a></span></div>
+        <section class="catalog">
+          <div class="container catalog__container grid">
+            <h2 class="catalog__heading heading-item tablet">Каталог</h2>
+            <aside class="catalog-aside catalog-filter">
+              <div class="catalog-aside__filter catalog-filter__container filter-text">
+                <h4 class="catalog-filter__heading text tablet">Фильтры:</h4>
+                <h4 class="catalog-aside__heading desktop">Фильтровать по:</h4>
+                <ul class="catalog-filter__list fieldset">
+                  <li class="catalog-aside__filter catalog-filter__item">
+                    <h5 class="catalog-aside__legend filter-heading desktop">Категория</h5>
+                    <button class="catalog-filter__btn filter-heading ui-label tablet">Категория
+                      <svg width="7" height="12" viewBox="0 0 7 12" stroke="#A65CF0" fill="none">
+                        <use xlink:href="img/svg/sprite/sprite.svg#arrow"></use>
+                      </svg>
+                    </button>
+                    <div class="catalog-filter__select-container simplebar-container">
+                      <ul class="catalog-filter__select-list simplebar">
+                        <li class="catalog-aside__input-container catalog-filter__input-container">
+                          <input class="catalog-aside__input catalog-filter__input checkbox" type="checkbox" id="filterSofa" name="sofa" value="sofa" checked>
+                          <label class="catalog-aside__input-label catalog-filter__input-label checkbox-custom" for="filterSofa" tabindex="2">Диваны</label>
+                        </li>
+                        <li class="catalog-aside__input-container catalog-filter__input-container">
+                          <input class="catalog-aside__input catalog-filter__input checkbox" type="checkbox" id="filterChair" name="Chair" value="Chair">
+                          <label class="catalog-aside__input-label catalog-filter__input-label checkbox-custom" for="filterChair" tabindex="2">Кресла</label>
+                        </li>
+                        <li class="catalog-aside__input-container catalog-filter__input-container">
+                          <input class="catalog-aside__input catalog-filter__input checkbox" type="checkbox" id="filterPouf" name="Pouf" value="Pouf">
+                          <label class="catalog-aside__input-label catalog-filter__input-label checkbox-custom" for="filterPouf" tabindex="2">Пуфы</label>
+                        </li>
+                        <li class="catalog-aside__input-container catalog-filter__input-container">
+                          <input class="catalog-aside__input catalog-filter__input checkbox" type="checkbox" id="filterBed" name="Bed" value="Bed">
+                          <label class="catalog-aside__input-label catalog-filter__input-label checkbox-custom" for="filterBed" tabindex="2">Кровати</label>
+                        </li>
+                        <li class="catalog-aside__input-container catalog-filter__input-container">
+                          <input class="catalog-aside__input catalog-filter__input checkbox" type="checkbox" id="filterBedtab" name="Bedtable" value="Bedtable">
+                          <label class="catalog-aside__input-label catalog-filter__input-label checkbox-custom" for="filterBedtab" tabindex="2">Тумбы</label>
+                        </li>
+                        <li class="catalog-aside__input-container catalog-filter__input-container">
+                          <input class="catalog-aside__input catalog-filter__input checkbox" type="checkbox" id="filterDresser" name="Dresser" value="Dresser">
+                          <label class="catalog-aside__input-label catalog-filter__input-label checkbox-custom" for="filterDresser" tabindex="2">Комоды</label>
+                        </li>
+                        <li class="catalog-aside__input-container catalog-filter__input-container">
+                          <input class="catalog-aside__input catalog-filter__input checkbox" type="checkbox" id="filterStool" name="Stool" value="Stool">
+                          <label class="catalog-aside__input-label catalog-filter__input-label checkbox-custom" for="filterStool" tabindex="2">Стулья</label>
+                        </li>
+                        <li class="catalog-aside__input-container catalog-filter__input-container">
+                          <input class="catalog-aside__input catalog-filter__input checkbox" type="checkbox" id="filterTable" name="Table" value="Table">
+                          <label class="catalog-aside__input-label catalog-filter__input-label checkbox-custom" for="filterTable" tabindex="2">Столы</label>
+                        </li>
+                        <li class="catalog-aside__input-container catalog-filter__input-container">
+                          <input class="catalog-aside__input catalog-filter__input checkbox" type="checkbox" id="filterAccessory" name="Accessory" value="Accessory">
+                          <label class="catalog-aside__input-label catalog-filter__input-label checkbox-custom" for="filterAccessory" tabindex="2">Аксессуары</label>
+                        </li>
+                      </ul>
+                    </div>
+                  </li>
+                  <li class="catalog-aside__filter catalog-aside__filter-price catalog-filter__item fieldset">
+                    <h5 class="catalog-aside__legend filter-heading desktop">Цена</h5>
+                    <button class="catalog-filter__btn filter-heading ui-label tablet">Цена
+                      <svg width="7" height="12" viewBox="0 0 7 12" stroke="#A65CF0" fill="none">
+                        <use xlink:href="img/svg/sprite/sprite.svg#arrow"></use>
+                      </svg>
+                    </button>
+                    <div class="catalog-filter__select-container simplebar-container">
+                      <ul class="catalog-filter__select-list catalog-filter__select-price simplebar flex">
+                        <li class="catalog-aside__input-container catalog-filter__input-container catalog-aside__price-container">
+                          <label class="catalog-aside__input-label catalog-filter__input-label" for="slider-value-min">от</label>
+                          <input class="catalog-aside__input-price catalog-filter__input ui-input" id="slider-value-min" type="text" tabindex="2">
+                        </li>
+                        <li class="catalog-aside__input-container catalog-filter__input-container catalog-aside__price-container">
+                          <label class="catalog-aside__input-label catalog-filter__input-label" for="slider-value-max">до</label>
+                          <input class="catalog-aside__input-price catalog-filter__input ui-input" id="slider-value-max" type="text" tabindex="2">
+                        </li>
+                      </ul>
+                      <div class="catalog-aside__input-container desktop">
+                        <div class="catalog-aside__input input-range" id="slider" tabindex="2"></div>
+                      </div>
+                    </div>
+                  </li>
+                  <li class="catalog-aside__filter catalog-filter__item fieldset">
+                    <h5 class="catalog-aside__legend filter-heading desktop">Скидка</h5>
+                    <button class="catalog-filter__btn filter-heading ui-label tablet">Скидка
+                      <svg width="7" height="12" viewBox="0 0 7 12" stroke="#A65CF0" fill="none">
+                        <use xlink:href="img/svg/sprite/sprite.svg#arrow"></use>
+                      </svg>
+                    </button>
+                    <div class="catalog-filter__select-container simplebar-container">
+                      <ul class="catalog-filter__select-list simplebar">
+                        <li class="catalog-aside__input-container catalog-filter__input-container">
+                          <input class="catalog-aside__input catalog-filter__input checkbox" type="checkbox" id="filterDiscountMore" name="Discount more 5000" value="Discount more 5000">
+                          <label class="catalog-aside__input-label catalog-filter__input-label checkbox-custom" for="filterDiscountMore" tabindex="2">Более 5 000</label>
+                        </li>
+                        <li class="catalog-aside__input-container catalog-filter__input-container">
+                          <input class="catalog-aside__input catalog-filter__input checkbox" type="checkbox" id="filterDiscountLess" name="Discount less 5000" value="Discount less 5000">
+                          <label class="catalog-aside__input-label catalog-filter__input-label checkbox-custom" for="filterDiscountLess" tabindex="2">Менее 5 000</label>
+                        </li>
+                        <li class="catalog-aside__input-container catalog-filter__input-container">
+                          <input class="catalog-aside__input catalog-filter__input checkbox" type="checkbox" id="filterDiscountMatter" name="Discount doesnt matter" value="Discount doesnt matter" checked>
+                          <label class="catalog-aside__input-label catalog-filter__input-label checkbox-custom" for="filterDiscountMatter" tabindex="2">Не важно</label>
+                        </li>
+                      </ul>
+                    </div>
+                  </li>
+                  <li class="catalog-aside__filter catalog-filter__item fieldset">
+                    <h5 class="catalog-aside__legend filter-heading desktop">Цвет</h5>
+                    <button class="catalog-filter__btn filter-heading ui-label tablet">Цвет
+                      <svg width="7" height="12" viewBox="0 0 7 12" stroke="#A65CF0" fill="none">
+                        <use xlink:href="img/svg/sprite/sprite.svg#arrow"></use>
+                      </svg>
+                    </button>
+                    <div class="catalog-filter__select-container simplebar-container">
+                      <ul class="catalog-filter__select-list simplebar">
+                        <li class="catalog-aside__input-container catalog-filter__input-container">
+                          <input class="catalog-aside__input catalog-filter__input checkbox" type="checkbox" id="filterBrown" name="Brown" value="Brown">
+                          <label class="catalog-aside__input-label catalog-filter__input-label checkbox-custom" for="filterBrown" tabindex="2">Коричневый</label>
+                        </li>
+                        <li class="catalog-aside__input-container catalog-filter__input-container">
+                          <input class="catalog-aside__input catalog-filter__input checkbox" type="checkbox" id="filterBlack" name="Black" value="Black">
+                          <label class="catalog-aside__input-label catalog-filter__input-label checkbox-custom" for="filterBlack" tabindex="2">Черный</label>
+                        </li>
+                        <li class="catalog-aside__input-container catalog-filter__input-container">
+                          <input class="catalog-aside__input catalog-filter__input checkbox" type="checkbox" id="filterBeige" name="Beige" value="Beige">
+                          <label class="catalog-aside__input-label catalog-filter__input-label checkbox-custom" for="filterBeige" tabindex="2">Бежевый</label>
+                        </li>
+                        <li class="catalog-aside__input-container catalog-filter__input-container">
+                          <input class="catalog-aside__input catalog-filter__input checkbox" type="checkbox" id="filterGray" name="Gray" value="Gray">
+                          <label class="catalog-aside__input-label catalog-filter__input-label checkbox-custom" for="filterGray" tabindex="2">Серый</label>
+                        </li>
+                        <li class="catalog-aside__input-container catalog-filter__input-container">
+                          <input class="catalog-aside__input catalog-filter__input checkbox" type="checkbox" id="filterWhite" name="White" value="White">
+                          <label class="catalog-aside__input-label catalog-filter__input-label checkbox-custom" for="filterWhite" tabindex="2">Белый</label>
+                        </li>
+                        <li class="catalog-aside__input-container catalog-filter__input-container">
+                          <input class="catalog-aside__input catalog-filter__input checkbox" type="checkbox" id="filterBlue" name="Blue" value="Blue">
+                          <label class="catalog-aside__input-label catalog-filter__input-label checkbox-custom" for="filterBlue" tabindex="2">Синий</label>
+                        </li>
+                        <li class="catalog-aside__input-container catalog-filter__input-container">
+                          <input class="catalog-aside__input catalog-filter__input checkbox" type="checkbox" id="filterOrange" name="Orange" value="Orange" checked>
+                          <label class="catalog-aside__input-label catalog-filter__input-label checkbox-custom" for="filterOrange" tabindex="2">Оранжевый</label>
+                        </li>
+                        <li class="catalog-aside__input-container catalog-filter__input-container">
+                          <input class="catalog-aside__input catalog-filter__input checkbox" type="checkbox" id="filterYellow" name="Yellow" value="Yellow">
+                          <label class="catalog-aside__input-label catalog-filter__input-label checkbox-custom" for="filterYellow" tabindex="2">Желтый</label>
+                        </li>
+                        <li class="catalog-aside__input-container catalog-filter__input-container">
+                          <input class="catalog-aside__input catalog-filter__input checkbox" type="checkbox" id="filterGreen" name="Green" value="Green">
+                          <label class="catalog-aside__input-label catalog-filter__input-label checkbox-custom" for="filterGreen" tabindex="2">Зеленый</label>
+                        </li>
+                      </ul>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+              <div class="catalog-aside__new desktop">
+                <div class="catalog-aside__new-bg"></div>
+                <div class="catalog-aside__new-content flex">
+                  <h2 class="catalog-aside__new-heading">Оксфорд&nbsp;1950</h2>
+                  <p class="catalog-aside__new-text">Новая&nbsp;коллекция<br/>изысканных&nbsp;кресел</p>
+                  <div class="catalog-aside__link"><a class="to-catalog" href="catalog.html">В каталог</a>
+                    <svg class="svg-arrow" width="7" height="12" viewBox="1 -4 4 20" stroke="#A65CF0" fill="none">
+                      <use xlink:href="img/svg/sprite/sprite.svg#arrow"></use>
+                    </svg>
+                  </div>
+                </div>
+              </div>
+            </aside>
+            <div class="catalog-right">
+              <h2 class="catalog__heading heading-item desktop">Каталог</h2>
+              <div class="catalog-right__swiper swiper">
+                <ul class="catalog__list catalog-right__swiper-wrapper swiper-wrapper">
+                  <li class="catalog__item catalog-right__swiper-slide sofa-item swiper-slide"><span class="catalog__rating sofa-rating rating">5,0</span>
+                    <picture>
+                      <source media="(min-width:576px)" srcset="img/sofa/r94.png" type="image/png">
+                      <source media="(max-width:576px)" srcset="img/sofa/r94-mob.png" type="image/png"><img class="sofa-img" src="img/sofa/r94.png" alt="">
+                    </picture>
+                    <div class="catalog__content sofa-content flex">
+                      <h3 class="catalog__item sofa-name heading-item">Диван кожаный<br/>“R-94”</h3><span class="catalog__price sofa-price price">94 990 руб</span><a class="catalog__btn sofa-btn btn-border ui-btn" href="product.html">Купить</a>
+                    </div>
+                  </li>
+                  <li class="catalog__item catalog-right__swiper-slide sofa-item swiper-slide"><span class="catalog__rating sofa-rating rating">4,9</span>
+                    <picture>
+                      <source media="(min-width:576px)" srcset="img/sofa/t75.png" type="image/png">
+                      <source media="(max-width:576px)" srcset="img/sofa/t75-mob.png" type="image/png"><img class="sofa-img" src="img/sofa/t75.png" alt="">
+                    </picture>
+                    <div class="catalog__content sofa-content flex">
+                      <h3 class="catalog__item sofa-name heading-item">Диван апартековый<br/>“T-75”</h3><span class="catalog__price sofa-price price">69 990 руб</span><a class="catalog__btn sofa-btn btn-border ui-btn" href="product.html">Купить</a>
+                    </div>
+                  </li>
+                  <li class="catalog__item catalog-right__swiper-slide sofa-item swiper-slide"><span class="catalog__rating sofa-rating rating">4,8</span>
+                    <picture>
+                      <source media="(min-width:576px)" srcset="img/sofa/d31.png" type="image/png">
+                      <source media="(max-width:576px)" srcset="img/sofa/d31-mob.png" type="image/png"><img class="sofa-img" src="img/sofa/d31.png" alt="">
+                    </picture>
+                    <div class="catalog__content sofa-content flex">
+                      <h3 class="catalog__item sofa-name heading-item">Диван тканевый<br/>“D-31”</h3><span class="catalog__price sofa-price price">28 490 руб</span><a class="catalog__btn sofa-btn btn-border ui-btn" href="product.html">Купить</a>
+                    </div>
+                  </li>
+                  <li class="catalog__item catalog-right__swiper-slide sofa-item swiper-slide"><span class="catalog__rating sofa-rating rating">4,8</span>
+                    <picture>
+                      <source media="(min-width:576px)" srcset="img/sofa/y68.png" type="image/png">
+                      <source media="(max-width:576px)" srcset="img/sofa/y68-mob.png" type="image/png"><img class="sofa-img" src="img/sofa/y68.png" alt="">
+                    </picture>
+                    <div class="catalog__content sofa-content flex">
+                      <h3 class="catalog__item sofa-name heading-item">Диван велюровый<br/>“Y-68”</h3><span class="catalog__price sofa-price price">22 990 руб</span><a class="catalog__btn sofa-btn btn-border ui-btn" href="product.html">Купить</a>
+                    </div>
+                  </li>
+                  <li class="catalog__item catalog-right__swiper-slide sofa-item swiper-slide"><span class="catalog__rating sofa-rating rating">4,8</span>
+                    <picture>
+                      <source media="(min-width:576px)" srcset="img/sofa/w95.png" type="image/png">
+                      <source media="(max-width:576px)" srcset="img/sofa/w95-mob.png" type="image/png"><img class="sofa-img" src="img/sofa/w95.png" alt="">
+                    </picture>
+                    <div class="catalog__content sofa-content flex">
+                      <h3 class="catalog__item sofa-name heading-item">Диван из шинила<br/>“W-95”</h3><span class="catalog__price sofa-price price">22 990 руб</span><a class="catalog__btn sofa-btn btn-border ui-btn" href="product.html">Купить</a>
+                    </div>
+                  </li>
+                  <li class="catalog__item catalog-right__swiper-slide sofa-item swiper-slide"><span class="catalog__rating sofa-rating rating">4,8</span>
+                    <picture>
+                      <source media="(min-width:576px)" srcset="img/sofa/g41.png" type="image/png">
+                      <source media="(max-width:576px)" srcset="img/sofa/g41-mob.png" type="image/png"><img class="sofa-img" src="img/sofa/g41.png" alt="">
+                    </picture>
+                    <div class="catalog__content sofa-content flex">
+                      <h3 class="catalog__item sofa-name heading-item">Диван флоковый<br/>“G-41”</h3><span class="catalog__price sofa-price price">17 990 руб</span><a class="catalog__btn sofa-btn btn-border ui-btn" href="product.html">Купить</a>
+                    </div>
+                  </li>
+                  <li class="catalog__item catalog-right__swiper-slide sofa-item swiper-slide"><span class="catalog__rating sofa-rating rating">4,8</span>
+                    <picture>
+                      <source media="(min-width:576px)" srcset="img/sofa/v43.png" type="image/png">
+                      <source media="(max-width:576px)" srcset="img/sofa/v43-mob.png" type="image/png"><img class="sofa-img" src="img/sofa/v43.png" alt="">
+                    </picture>
+                    <div class="catalog__content sofa-content flex">
+                      <h3 class="catalog__item sofa-name heading-item">Диван шиниловый<br/>“V-43”</h3><span class="catalog__price sofa-price price">19 990 руб</span><a class="catalog__btn sofa-btn btn-border ui-btn" href="product.html">Купить</a>
+                    </div>
+                  </li>
+                  <li class="catalog__item catalog-right__swiper-slide sofa-item swiper-slide"><span class="catalog__rating sofa-rating rating">4,8</span>
+                    <picture>
+                      <source media="(min-width:576px)" srcset="img/sofa/s99.png" type="image/png">
+                      <source media="(max-width:576px)" srcset="img/sofa/s99-mob.png" type="image/png"><img class="sofa-img" src="img/sofa/s99.png" alt="">
+                    </picture>
+                    <div class="catalog__content sofa-content flex">
+                      <h3 class="catalog__item sofa-name heading-item">Диван велюровый<br/>“S-99”</h3><span class="catalog__price sofa-price price">19 990 руб</span><a class="catalog__btn sofa-btn btn-border ui-btn" href="product.html">Купить</a>
+                    </div>
+                  </li>
+                  <li class="catalog__item catalog-right__swiper-slide sofa-item swiper-slide"><span class="catalog__rating sofa-rating rating">4,7</span>
+                    <picture>
+                      <source media="(min-width:576px)" srcset="img/sofa/f85.png" type="image/png">
+                      <source media="(max-width:576px)" srcset="img/sofa/f85-mob.png" type="image/png"><img class="sofa-img" src="img/sofa/f85.png" alt="">
+                    </picture>
+                    <div class="catalog__content sofa-content flex">
+                      <h3 class="catalog__item sofa-name heading-item">Диван из кожзама <br/>“F-85”</h3><span class="catalog__price sofa-price price">26 990 руб</span><a class="catalog__btn sofa-btn btn-border ui-btn" href="product.html">Купить</a>
+                    </div>
+                  </li>
+                  <li class="catalog__item catalog-right__swiper-slide sofa-item swiper-slide"><span class="catalog__rating sofa-rating rating">4,7</span>
+                    <picture>
+                      <source media="(min-width:576px)" srcset="img/sofa/h64.png" type="image/png">
+                      <source media="(max-width:576px)" srcset="img/sofa/h64-mob.png" type="image/png"><img class="sofa-img" src="img/sofa/h64.png" alt="">
+                    </picture>
+                    <div class="catalog__content sofa-content flex">
+                      <h3 class="catalog__item sofa-name heading-item">Диван флоковый<br/>“H-64”</h3><span class="catalog__price sofa-price price">25 990 руб</span><a class="catalog__btn sofa-btn btn-border ui-btn" href="product.html">Купить</a>
+                    </div>
+                  </li>
+                  <li class="catalog__item catalog-right__swiper-slide sofa-item swiper-slide"><span class="catalog__rating sofa-rating rating">4,6</span>
+                    <picture>
+                      <source media="(min-width:576px)" srcset="img/sofa/h58.png" type="image/png">
+                      <source media="(max-width:576px)" srcset="img/sofa/h58-mob.png" type="image/png"><img class="sofa-img" src="img/sofa/h58.png" alt="">
+                    </picture>
+                    <div class="catalog__content sofa-content flex">
+                      <h3 class="catalog__item sofa-name heading-item">Диван флоковый<br/>“H-58”</h3><span class="catalog__price sofa-price price">23 990 руб</span><a class="catalog__btn sofa-btn btn-border ui-btn" href="product.html">Купить</a>
+                    </div>
+                  </li>
+                  <li class="catalog__item catalog-right__swiper-slide sofa-item swiper-slide"><span class="catalog__rating sofa-rating rating">4,6</span>
+                    <picture>
+                      <source media="(min-width:576px)" srcset="img/sofa/r43.png" type="image/png">
+                      <source media="(max-width:576px)" srcset="img/sofa/r43-mob.png" type="image/png"><img class="sofa-img" src="img/sofa/r43.png" alt="">
+                    </picture>
+                    <div class="catalog__content sofa-content flex">
+                      <h3 class="catalog__item sofa-name heading-item">Диван из кожзама<br/>“R-43”</h3><span class="catalog__price sofa-price price">33 990 руб</span><a class="catalog__btn sofa-btn btn-border ui-btn" href="product.html">Купить</a>
+                    </div>
+                  </li>
+                  <li class="catalog__item catalog-right__swiper-slide sofa-item swiper-slide"><span class="catalog__rating sofa-rating rating">4,6</span>
+                    <picture>
+                      <source media="(min-width:576px)" srcset="img/sofa/c42.png" type="image/png">
+                      <source media="(max-width:576px)" srcset="img/sofa/c42-mob.png" type="image/png"><img class="sofa-img" src="img/sofa/c42.png" alt="">
+                    </picture>
+                    <div class="catalog__content sofa-content flex">
+                      <h3 class="catalog__item sofa-name heading-item">Диван из шинила<br/>“С-42”</h3><span class="catalog__price sofa-price price">18 990 руб</span><a class="catalog__btn sofa-btn btn-border ui-btn" href="product.html">Купить</a>
+                    </div>
+                  </li>
+                  <li class="catalog__item catalog-right__swiper-slide sofa-item swiper-slide"><span class="catalog__rating sofa-rating rating">4,6</span>
+                    <picture>
+                      <source media="(min-width:576px)" srcset="img/sofa/u58.png" type="image/png">
+                      <source media="(max-width:576px)" srcset="img/sofa/u58-mob.png" type="image/png"><img class="sofa-img" src="img/sofa/u58.png" alt="">
+                    </picture>
+                    <div class="catalog__content sofa-content flex">
+                      <h3 class="catalog__item sofa-name heading-item">Диван велюровый<br/>“U-58”</h3><span class="catalog__price sofa-price price">21 990 руб</span><a class="catalog__btn sofa-btn btn-border ui-btn" href="product.html">Купить</a>
+                    </div>
+                  </li>
+                  <li class="catalog__item catalog-right__swiper-slide sofa-item swiper-slide"><span class="catalog__rating sofa-rating rating">4,6</span>
+                    <picture>
+                      <source media="(min-width:576px)" srcset="img/sofa/f41.png" type="image/png">
+                      <source media="(max-width:576px)" srcset="img/sofa/f41-mob.png" type="image/png"><img class="sofa-img" src="img/sofa/f41.png" alt="">
+                    </picture>
+                    <div class="catalog__content sofa-content flex">
+                      <h3 class="catalog__item sofa-name heading-item">Диван флоковый<br/>“F-41”</h3><span class="catalog__price sofa-price price">17 990 руб</span><a class="catalog__btn sofa-btn btn-border ui-btn" href="product.html">Купить</a>
+                    </div>
+                  </li>
+                  <li class="catalog__item catalog-right__swiper-slide sofa-item swiper-slide"><span class="catalog__rating sofa-rating rating">4,6</span>
+                    <picture>
+                      <source media="(min-width:576px)" srcset="img/sofa/r85.png" type="image/png">
+                      <source media="(max-width:576px)" srcset="img/sofa/r85-mob.png" type="image/png"><img class="sofa-img" src="img/sofa/r85.png" alt="">
+                    </picture>
+                    <div class="catalog__content sofa-content flex">
+                      <h3 class="catalog__item sofa-name heading-item">Диван велюровый<br/>“R-85”</h3><span class="catalog__price sofa-price price">34 990 руб</span><a class="catalog__btn sofa-btn btn-border ui-btn" href="product.html">Купить</a>
+                    </div>
+                  </li>
+                  <li class="catalog__item catalog-right__swiper-slide sofa-item swiper-slide"><span class="catalog__rating sofa-rating rating">4,5</span>
+                    <picture>
+                      <source media="(min-width:576px)" srcset="img/sofa/s44.png" type="image/png">
+                      <source media="(max-width:576px)" srcset="img/sofa/s44-mob.png" type="image/png"><img class="sofa-img" src="img/sofa/s44.png" alt="">
+                    </picture>
+                    <div class="catalog__content sofa-content flex">
+                      <h3 class="catalog__item sofa-name heading-item">Диван велюровый<br/>“S-44”</h3><span class="catalog__price sofa-price price">19 990 руб</span><a class="catalog__btn sofa-btn btn-border ui-btn" href="product.html">Купить</a>
+                    </div>
+                  </li>
+                  <li class="catalog__item catalog-right__swiper-slide sofa-item swiper-slide"><span class="catalog__rating sofa-rating rating">4,4</span>
+                    <picture>
+                      <source media="(min-width:576px)" srcset="img/sofa/c80.png" type="image/png">
+                      <source media="(max-width:576px)" srcset="img/sofa/c80-mob.png" type="image/png"><img class="sofa-img" src="img/sofa/c80.png" alt="">
+                    </picture>
+                    <div class="catalog__content sofa-content flex">
+                      <h3 class="catalog__item sofa-name heading-item">Диван из шинила<br/>“С-80”</h3><span class="catalog__price sofa-price price">20 990 руб</span><a class="catalog__btn sofa-btn btn-border ui-btn" href="product.html">Купить</a>
+                    </div>
+                  </li>
+                </ul>
+                <div class="catalog-right__swiper-pagination swiper-pagination"></div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </main>
+      <footer class="footer">
+        <div class="footer-top">
+          <div class="container footer__container grid">
+            <div class="footer__left flex"><a class="footer__left-logo logo" href="">
+                <svg width="187" height="27" viewBox="0 0 187 27">
+                  <use xlink:href="img/svg/sprite/sprite.svg#logo"></use>
+                </svg></a>
+              <ul class="footer__left-list flex">
+                <li class="footer__left-item"><a class="footer__left-link icon-soc ui-icon" href="#" aria-label="мы в фейсбук">
+                    <svg width="30" height="30" viewBox="0 0 30 30" fill="#999999">
+                      <use xlink:href="img/svg/sprite/sprite.svg#fb"></use>
+                    </svg></a></li>
+                <li class="footer__left-item"><a class="footer__left-link icon-soc ui-icon" href="#" aria-label="мы вконтакте">
+                    <svg width="30" height="30" viewBox="0 0 30 30" fill="#999999">
+                      <use xlink:href="img/svg/sprite/sprite.svg#vk"></use>
+                    </svg></a></li>
+                <li class="footer__left-item"><a class="footer__left-link icon-soc ui-icon" href="#" aria-label="мы в инстаграм">
+                    <svg width="30" height="30" viewBox="0 0 30 30" fill="#999999">
+                      <use xlink:href="img/svg/sprite/sprite.svg#inst"></use>
+                    </svg></a></li>
+              </ul>
+            </div>
+            <div class="footer__right">
+              <ul class="footer__right-list grid">
+                <li class="footer__right-item">
+                  <h4 class="footer__right-heading">О нас</h4><a class="footer__right-link link-grey ui-link" href="#">О&nbsp;компании</a><a class="footer__right-link link-grey ui-link" href="#">Блог</a>
+                </li>
+                <li class="footer__right-item">
+                  <h4 class="footer__right-heading">Услуги</h4><a class="footer__right-link link-grey ui-link" href="#">Доставка</a><a class="footer__right-link link-grey ui-link" href="#">Рассрочка&nbsp;и&nbsp;кредит</a><a class="footer__right-link link-grey ui-link" href="#">Сборка&nbsp;и&nbsp;установка</a>
+                </li>
+                <li class="footer__right-item">
+                  <h4 class="footer__right-heading">Связь&nbsp;с&nbsp;нами</h4><a class="footer__right-link link-grey ui-link" href="#">Обратная&nbsp;связь</a><a class="footer__right-link link-grey ui-link" href="#">Контакты</a>
+                </li>
+                <li class="footer__right-item">
+                  <h4 class="footer__right-heading">Сотрудничество</h4><a class="footer__right-link link-grey ui-link" href="partner.html">Поставщикам</a><a class="footer__right-link link-grey ui-link" href="#">Оптовикам</a><a class="footer__right-link link-grey ui-link" href="#">Карьера</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="footer-bottom flex"><span class="footer__copyright link-grey ui-link">SDP&#174;   2011-2021</span></div>
+      </footer>
+    </div>
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+    <script src="https://unpkg.com/simplebar@latest/dist/simplebar.min.js"></script>
+    <script src="js/choices.min.js"></script>
+    <script src="js/nouislider.min.js"></script>
+    <script src="js/header-top__select.min.js"></script>
+    <script src="js/header-bot__select.min.js"></script>
+    <script src="js/burger.min.js"></script>
+    <script src="js/search.min.js"></script>
+    <script src="js/catalog__range.min.js"></script>
+    <script src="js/catalog-right__swiper.min.js"></script>
+    <script src="js/catalog-filter.min.js"></script>
+  </body>
+</html>
