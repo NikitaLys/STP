@@ -1,0 +1,100 @@
+.checkbox {
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  height: 1px;
+  overflow: hidden;
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+}
+.checkbox:checked + .checkbox-custom::before {
+  background: url("../img/svg/checkbox.svg") center no-repeat;
+  border: 1px solid transparent;
+}
+.checkbox + .checkbox-custom {
+  position: relative;
+  padding-left: 22px;
+  transition: color 0.2s ease-in-out;
+  cursor: pointer;
+}
+.checkbox + .checkbox-custom::before {
+  content: "";
+  position: absolute;
+  width: 12px;
+  height: 12px;
+  top: 2px;
+  left: 0;
+  border: 1px solid #999999;
+  border-radius: 2px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  cursor: pointer;
+  transition: border 0.1s ease-in-out;
+}
+.checkbox-link {
+  margin-left: 5px;
+  border-bottom: 1px solid #A65CF0;
+  color: #A65CF0;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 1200px) {
+  .main-catalog .way-container {
+    transform: translateY(-17px);
+    margin-bottom: 10px;
+  }
+  .main-catalog .way-product, .main-catalog .way-partner {
+    display: none;
+  }
+  .main-catalog .way-link:last-of-type {
+    color: #7033AC;
+  }
+  .main-product .way-container {
+    margin-bottom: 8px;
+    transform: translateY(-18px);
+  }
+  .main-product .way-partner {
+    display: none;
+  }
+  .main-product-link:last-of-type {
+    color: #7033AC;
+  }
+  .main-partner .way-container {
+    margin-bottom: 8px;
+    transform: translateY(-18px);
+  }
+  .main-partner .way-catalog, .main-partner .way-sofa, .main-partner .way-straightSofa, .main-partner .way-product, .main-partner .way-product {
+    display: none;
+  }
+  .main-partner .way-link:last-of-type {
+    color: #7033AC;
+  }
+  .way {
+    display: inline-block;
+    line-height: 100%;
+  }
+  .way-container {
+    margin-bottom: 41px;
+    transform: translateY(-9px);
+  }
+  .way-link {
+    color: #999999;
+  }
+  .way-link:last-of-type {
+    color: #7033AC;
+  }
+}
+@media screen and (max-width: 992px) {
+  .main-product .way-container {
+    margin-bottom: 12px;
+    transform: translateY(-14px);
+  }
+  .main-product-link:last-of-type {
+    color: #7033AC;
+  }
+}
+@media screen and (max-width: 576px) {
+  .way-container {
+    display: none;
+  }
+}
